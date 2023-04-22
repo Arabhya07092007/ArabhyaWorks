@@ -14,6 +14,8 @@
 }
 html, body {
   scroll-behavior: smooth;
+  
+  background-color: #121316;
 }
 
 /* @property --rotate {
@@ -223,7 +225,11 @@ a {
   padding-bottom: 100px;
   /* height: 100vh; */
   /* background-color: #212121; */
-  background-color: #121316;
+  
+  background: url("https://ai.mastersunion.org/assets/img/Formbackground.png");
+  
+  /* background-image: url("https://ai.mastersunion.org/assets/img/AIheroBanner.png"); */
+  
   /* background-image: linear-gradient(147deg, #2c3e50 0%, #000 74%); */
   
 }
@@ -436,10 +442,12 @@ a {
   padding: 60px;
   /* height: 100vh; */
   padding-top: 130px;
-  background-color: rgb(16, 25, 30);
-  background-image: radial-gradient(at 58% 84%, rgb(20, 0, 41) 0px, transparent 53%), radial-gradient(at 89% 98%, rgb(13, 12, 12) 0px, transparent 47%), radial-gradient(at 32% 0%, rgb(0, 5, 26) 0px, transparent 50%), radial-gradient(at 80% 9%, rgb(24, 22, 54) 0px, transparent 43%), radial-gradient(at 50% 28%, rgb(76, 26, 58) 0px, transparent 53%), radial-gradient(at 12% 91%, rgb(26, 0, 51) 0px, transparent 50%);
+  /* background-color: rgb(16, 25, 30); */
+  /* background-image: radial-gradient(at 58% 84%, rgb(20, 0, 41) 0px, transparent 53%), radial-gradient(at 89% 98%, rgb(13, 12, 12) 0px, transparent 47%), radial-gradient(at 32% 0%, rgb(0, 5, 26) 0px, transparent 50%), radial-gradient(at 80% 9%, rgb(24, 22, 54) 0px, transparent 43%), radial-gradient(at 50% 28%, rgb(76, 26, 58) 0px, transparent 53%), radial-gradient(at 12% 91%, rgb(26, 0, 51) 0px, transparent 50%); */
   /* background: linear-gradient(to right, #232526, #414345);  */
   /* background: linear-gradient(to right, #1f1c2c, #928dab);  */
+  
+  background-image: url("https://ai.mastersunion.org/assets/img/AIheroBanner.png");
 }
 
 .testImg {
@@ -470,12 +478,15 @@ a {
   padding-top: 214px;
   padding-bottom: 120px;
   display: flex;
-  background-image: url("https://cohesive.so/landing-bg.webp");
+  /* background-image: url("https://cohesive.so/landing-bg.webp"); */
   flex-flow: column;
   background-position: 50%;
   background-size: cover;
   align-items: center;
   font-family: 'Inter', sans-serif;
+  
+  background-image: url("https://ai.mastersunion.org/assets/img/AIheroBanner.png");
+  /* background: url("https://ai.mastersunion.org/assets/img/Formbackground.png"); */
   
 }
 
@@ -858,11 +869,13 @@ a {
     padding: 0px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .testImg {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
   }
 
   .second {
