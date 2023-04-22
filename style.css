@@ -10,12 +10,13 @@
 * {
   padding: 0px;
   margin: 0px;
+  /* width: 100%; */
 }
 html, body {
   scroll-behavior: smooth;
 }
 
-@property --rotate {
+/* @property --rotate {
   syntax: "<angle>";
   initial-value: 132deg;
   inherits: false;
@@ -31,7 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-}
+} */
 
 .card {
   /* background: #191c29; */
@@ -64,6 +65,12 @@ body {
   
 }
 
+/* .productsHeading{
+  background:linear-gradient(129.77deg, rgb(0, 133, 125) 11.93%, rgb(0, 182, 171) 46.69%, rgb(69, 254, 143) 103.21%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+} */
+
 /* .card:hover {
   color: rgb(88 199 250 / 100%);
   transition: color 1s;
@@ -73,7 +80,7 @@ body {
   opacity: 0;
 } */
 
-.card::before {
+/* .card::before {
   content: "";
   width: 104%;
   height: 102%;
@@ -108,7 +115,7 @@ body {
   opacity: 1;
   transition: opacity 0.5s;
   animation: spin 2.5s linear infinite;
-}
+} */
 
 @keyframes spin {
   0% {
@@ -252,6 +259,11 @@ a {
   width: 550px;
   height: 550px;
 }
+.appimg2 {
+  width: 450px;
+  height: 450px;
+}
+
 
 
 .first {
@@ -431,7 +443,7 @@ a {
 }
 
 .testImg {
-  height: 400px;
+  height: 300px;
   border-radius: 250px;
   margin: 0.5px;
 }
@@ -464,6 +476,7 @@ a {
   background-size: cover;
   align-items: center;
   font-family: 'Inter', sans-serif;
+  
 }
 
 .bebasBold1 {
@@ -765,24 +778,74 @@ a {
     display: none;
   }
 
-  .bebasBold1 {
-    font-size: 32px;
-    text-align: center;
-    padding: 10px;
+  .starting{
+    /* padding: 96px 16px ; */
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
 
-    color: #141c3a;
-    line-height: 38px;
+  .bebasBold1 {
+    font-size: 36px;
+    line-height: 48px;
   }
 
   .bebasBold2 {
-    font-size: 20px;
+    /* font-size: 20px; */
 
     /* font-family: "Cormorant Infant", serif; */
+    font-size: 17px;
+    line-height: 24px;
+    /* margin-bottom: 64px; */
+  }
 
-    font-family: "Montserrat", sans-serif;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+  .appCont {
+    display: flex;
+    flex-direction: column;
+    /* padding: 60px 0px; */
+    padding-left:0px;
+    padding-right: 0px;
+    align-items: center;
+    /* padding-top: 40px; */
+    /* padding: 40px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .appimg1 {
+    width: 450px;
+    height: 450px;
+  }
+  .appimg2 {
+    width: 400px;
+    height: 400px;
+  }
+
+
+  .productsHeading{
+    /* font-size: 42px; */
+    line-height: 40px;
+    /* margin-top: 100px; */
+  }
+
+
+  .heading {
+    /* font-family: "Cormorant Infant", serif; */
+  
+    /* font-family: 'Inter', sans-serif; */
+    /* color: black; */
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 42px;
+    letter-spacing: -.02em;
+    margin-bottom: 15px;
+  
+  }
+
+  .appstxt{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    /* color: #757c99; */
+    color:'black'
   }
 
   .imgBoy {
@@ -793,13 +856,13 @@ a {
     /* display: flex; */
     flex-direction: column;
     padding: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .testImg {
-    width: 120px;
-    height: 260px;
+    width: 250px;
+    height: 250px;
   }
 
   .second {
@@ -874,7 +937,7 @@ a {
   }
 
   .cardCont {
-    margin: 30px;
+    margin: 0px;
     /* justify-content: center; */
   }
 
@@ -897,6 +960,7 @@ a {
   .navbar {
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 90%;
   }
 
   .imgBoy {
