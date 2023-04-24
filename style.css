@@ -777,7 +777,7 @@ a {
 
 @media only screen and (max-width: 900px) {
   body {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .ham-menu {
@@ -822,12 +822,12 @@ a {
     padding-bottom: 10px;
   }
   .appimg1 {
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
   }
   .appimg2 {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
 
 
@@ -973,7 +973,7 @@ a {
   .navbar {
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 90%;
+    /* width: 90%; */
   }
 
   .imgBoy {
